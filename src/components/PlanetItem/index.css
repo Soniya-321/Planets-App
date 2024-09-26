@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.heading {
+  color: #05acff;
+  font-size: 30px;
+}
+.slider-container {
+  width: 100%;
+  padding: 40px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  padding: 1rem 4rem;
+}
+.img {
+  height: 250px;
+  width: 250px;
+  align-self: center;
+}
+.head {
+  font-size: 25px;
+  color: #f8fafc;
+}
+.description {
+  font-size: 19px;
+  color: #f1f5f9;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 1rem 4rem;
+  }
+}

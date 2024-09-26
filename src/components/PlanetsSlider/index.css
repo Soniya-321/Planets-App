@@ -1,0 +1,8 @@
+/* Write your CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
